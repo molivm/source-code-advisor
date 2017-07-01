@@ -80,7 +80,7 @@ buildCleanAll(){
 
 buildRelease(){
 	clean
-	python ./setup.py sdist
+	python ./setup.py sdista
 	python ./setup.py check -m
 	return $TRUE
 }
